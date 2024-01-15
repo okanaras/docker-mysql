@@ -1,0 +1,16 @@
+{
+    "update": "2023-12-08T12:48:49.563Z",
+    "list": [
+        {
+            "name": "redis",
+            "host": "redis",
+            "port": 6379,
+            "askAuth": false,
+            "id": "P3Xid19539794c810100002630efad39704",
+            "tlsWithoutCert": false,
+            "tlsRejectUnauthorized": true,
+            "cluster": false,
+            "nodes": []
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+server{
+server_name proje1.test; # localdeki url adresi
+root /var/www/html/proje1/; # hangi klasore bakacak
+index index.php index.html index.htm; # hangi dosyaya bakacak
+access_log /var/log/nginx/access.log; # access logs
+error_log /var/log/nginx/error.log; # error logs
+client_max_body_size 20M; # istegin body max 20 mb olucak
+
+    location / { # ana dizine geldiginde 
+        try_files $uri $uri/ /index.php?$query_string; # denemeni al link, index.php ve parametri alabilme iznini verdik.
+    }
+#PHP FPM
+    location ~ \.php$ {
+        try_files $uri = 404;
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        fastcgi_pass php8:9000; #hangi php versiyonla calismasini istiyorsek yaziyoruz
+        fastcgi_index index.php;
+        include fastcgi_params;
+        fastcgi_param REQUEST_URI $request_uri;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_param PATH_INFO $fastcgi_path_info;
+    }
+}
