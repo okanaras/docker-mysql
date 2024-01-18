@@ -72,3 +72,7 @@ apt-get install -y npm </br></br>
 
 ## 5- 'The stream or file "/var/www/html/yazilim_egitim_blog/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied The exception occurred while attempting to log: The stream or file "/var/www/html/yazilim_egitim_blog/storage/logs/laravel.log" could not be opened in append' icin asagidaki kodu yapistir exec it baglanmaddan proje yoluna yapistir</br>
 sudo chmod -R 777 storage/</br></br>
+
+## 6- The /var/www/html/yazilim_egitim_blog/bootstrap/cache directory must be present and writable.
+sudo chmod -R 777 bootstrap/cache/ </br></br>
+
