@@ -42,7 +42,7 @@ ssh -T git@github.com </br>
 en sonda git clone 'sshlinki' ile projeyi cekiyoruz </br></br></br></br>
 
 # C. Docker Desktop </br>
-
+## Docker Desktop
 Docker Desktop(Windows) indirelim ve kuralım. </br>
 Kurulum sonrasında Docker Desktop uygulamamızı açalım ve sağ üstteki ikona tıklayarak ayarlar menüsüne gidelim. </br>
 General bbölümünde 'Use WSL 2 ve Use Docker Compose V2' seçili olsun. </br>
