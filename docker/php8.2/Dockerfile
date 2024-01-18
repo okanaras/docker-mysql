@@ -51,7 +51,4 @@ RUN export PATH="/root/.composer/vendor/bin:$PATH"
 # RUN export PATH="/root/.composer/vendor/bin:$PATH" ben verdim
 
 RUN chown -R www-data:www-data /var/www/html/
-# asagidaki 2 kodu ben ekledim hatalar vardi diye
-RUN chown -R okanaras /home/okanaras/
-RUN chmod -R 777 storage/
 
