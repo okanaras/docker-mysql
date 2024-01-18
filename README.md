@@ -35,11 +35,11 @@ ssh-keygen -t rsa -b 4096 -C "okanaras" </br>
 cikan ekranda public key yazan bolumdeki /root/.ssh/id_rsa.pub yazan yerde asagidaki komutu yaziyoruz </br>
 code ~//.ssh/id_rsa.pub </br>
 komutu ile vscode ta key i aciyoruz ve key i kopyalayip github web te settings-ssh and gpg keys yerine girip yeni ssh ekliyoruz </br>
-title'a Ubuntu-WSL verdim key tipi auth ve key e yukarda kopyaladigimi verip ekledim </br></br>
+title'a "Ubuntu-WSL" verdim "key tipi auth" ve "key e yukarda kopyaladigimi" verip ekledim </br></br>
 
 ssh -T git@github.com </br> 
 <b>'yes'</b> diyoruz </br>
-en sonda git clone 'sshlinki' ile projeyi cekiyoruz </br></br></br></br>
+en sonda "git clone 'sshlinki'" ile projeyi cekiyoruz </br></br></br></br>
 
 # C. Docker Desktop </br>
 ## Uygulama ayarlari
