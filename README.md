@@ -76,3 +76,6 @@ sudo chmod -R 777 storage/</br></br>
 ## 6- The /var/www/html/yazilim_egitim_blog/bootstrap/cache directory must be present and writable.
 sudo chmod -R 777 bootstrap/cache/ </br></br>
 
+## 7- Laravel not found icin docker a baglandiktan sonra :
+export PATH="/root/.composer/vendor/bin:$PATH" 
+
