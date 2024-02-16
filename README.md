@@ -1,4 +1,4 @@
-# A. WSL Kurulumu </br> 
+# A. WSL Kurulumu & Kaldirma </br> 
 
 ## 1- terminalde <b>"wsl --install"</b> koumutunu calistir. </br></br>
 
@@ -21,6 +21,14 @@ echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.co
 ## 5- Şimdi NodeJS'yi kurabiliriz. </br>
 sudo apt-get update </br>
 sudo apt-get install nodejs -y </br></br></br></br>
+
+## WSL Kaldirma </br></br>
+
+## 1- Uygulamalardan ubuntuyu kaldir. </br></br>
+
+## 2- terminalde <b>"wsl --list"</b> koumutunu calistir. </br></br>
+
+## 3- terminalde <b>"wsl --unregister Ubuntu"</b> koumutunu calistir. </br></br>
 
 # B. Github Kurulumu </br>
 ## 1- Asagidaki kodlar git kurulum kodlaridir hepsi ubuntu terminalinde calisacak! </br>
